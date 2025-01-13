@@ -161,6 +161,37 @@ p {
     text-align: center;
 }
 
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    margin: 8rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project{
+    text-align: center;
+}
+
+.project-card {
+    border: #333 solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.project img {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 20px; 
+    height: auto;
+    width: auto;
+}
+
 
 
 /* Typewriter Animation */
